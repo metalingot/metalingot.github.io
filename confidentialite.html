@@ -47,9 +47,11 @@
 <div class="tableau">
 <table>
   <tr><th>Service</th><th>Utilisation</th><th>Ce qui est transmis</th></tr>
-  <tr><td>dailymetalprice.com</td><td>Cours des métaux et historique</td><td>La demande de cours (métal, période)</td></tr>
+  <tr><td>westmetall.com</td><td>Cotations officielles du LME pour l'étain et le cuivre, cours du jour et historique</td><td>La demande de cours (métal)</td></tr>
+  <tr><td>Yahoo Finance (query1.finance.yahoo.com)</td><td>Contrats COMEX pour l'argent, l'or et le cuivre, cours du jour et historique</td><td>La demande de cours (métal, période)</td></tr>
+  <tr><td>dailymetalprice.com</td><td>Ancienne source de cours, encore essayée en dernier recours</td><td>La demande de cours (métal, période)</td></tr>
   <tr><td>metalpriceapi.com, metals-api.com, goldapi.io (facultatifs)</td><td>Source de cours de secours, si vous en choisissez une</td><td>La demande de cours et la clé API que vous avez vous-même saisie</td></tr>
-  <tr><td>frankfurter.app</td><td>Taux de change pour l'affichage en CHF, USD ou GBP</td><td>La demande de taux</td></tr>
+  <tr><td>frankfurter.app et frankfurter.dev (taux publiés par la BCE)</td><td>Taux de change : conversion des cours en euros, et affichage en CHF, USD ou GBP</td><td>La demande de taux</td></tr>
   <tr><td>FRED (fred.stlouisfed.org, Réserve fédérale de Saint-Louis)</td><td>Prix quotidien du pétrole brut, pour le graphique « Ratio or/pétrole »</td><td>La demande de cours (série, période)</td></tr>
   <tr><td>Wikidata (query.wikidata.org)</td><td>Caractéristiques de certaines pièces du catalogue</td><td>L'identifiant de la pièce consultée et la langue</td></tr>
 </table>
@@ -119,9 +121,11 @@
 <div class="tableau">
 <table>
   <tr><th>Service</th><th>Purpose</th><th>What is sent</th></tr>
-  <tr><td>dailymetalprice.com</td><td>Metal prices and price history</td><td>The price request (metal, period)</td></tr>
+  <tr><td>westmetall.com</td><td>Official LME prices for tin and copper, daily price and history</td><td>The price request (metal)</td></tr>
+  <tr><td>Yahoo Finance (query1.finance.yahoo.com)</td><td>COMEX contracts for silver, gold and copper, daily price and history</td><td>The price request (metal, period)</td></tr>
+  <tr><td>dailymetalprice.com</td><td>Former price source, still tried as a last resort</td><td>The price request (metal, period)</td></tr>
   <tr><td>metalpriceapi.com, metals-api.com, goldapi.io (optional)</td><td>Fallback price source, if you choose one</td><td>The price request and the API key you entered yourself</td></tr>
-  <tr><td>frankfurter.app</td><td>Exchange rates for displaying CHF, USD or GBP</td><td>The rate request</td></tr>
+  <tr><td>frankfurter.app and frankfurter.dev (rates published by the ECB)</td><td>Exchange rates: converting prices into euros, and displaying CHF, USD or GBP</td><td>The rate request</td></tr>
   <tr><td>FRED (fred.stlouisfed.org, Federal Reserve Bank of St. Louis)</td><td>Daily crude oil prices, for the “Gold/oil ratio” chart</td><td>The price request (series, period)</td></tr>
   <tr><td>Wikidata (query.wikidata.org)</td><td>Details of some coins in the catalogue</td><td>The identifier of the coin viewed and the language</td></tr>
 </table>
